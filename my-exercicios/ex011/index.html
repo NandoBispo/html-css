@@ -7,12 +7,29 @@
     <title>Mídias em HTML5</title>
 </head>
 <body>
-    <h1>Imagem dinâmica</h1>
-
-    <picture>
-        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-        <img src="imagens/foto-g.png" alt="Imagem flexível">
-    </picture>
+    <header>
+        <h1>Inserindo Mídias em HTML5</h1>
+    </header>
+    <main>
+        <h1>Imagem dinâmica</h1>
+        <section>
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+                <img src="imagens/foto-g.png" alt="Imagem flexível">
+            </picture>
+        </section>
+        <section>
+            <h1>Reproduzindo Áudio</h1>
+            <p>Reproduzindo áudio em HTML5.</p>
+            <!-- Primeira forma de inserir: -->
+            <!-- <audio src="../../master/exercicios/modulo-01/ex011/midia/happy-mistake.mp3" controls autoplay></audio> -->
+            <!-- Formatos Suportados: MP3, WAV, OGG -->
+            <!-- O comando "controls" insere o reprodutor de áudio na página. -->
+            <audio controls loop autoplay>
+                <source src="../../master/exercicios/modulo-01/ex011/midia/happy-mistake.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+    </main>
 </body>
 </html>
