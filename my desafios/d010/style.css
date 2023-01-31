@@ -50,10 +50,18 @@ main{
     background-color: rgb(132, 225, 173);
     /* background-color:#E9E6C3; */
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+    margin: 0%;
 }
 
 section#principal{
     background-color: white;
     width: 70%;
+}
+
+footer{
+    background-color: rgb(26, 94, 56);
+    color: white;
+    text-align: center;
+    margin: 0%;
+    /* padding: 0.5px; */
 }
