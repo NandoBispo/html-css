@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../../master/desafios/modulo-02/d010/pacote-projeto-d010/fontes/idroid.otf) 
+    format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+    /* 
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+    */
+
+header{
+    background-image: linear-gradient(180deg, rgb(55, 200, 120), rgb(26, 94, 56));
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+header > h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header > p {
+    /* margin: 10px; */
+    width: 360px;
+}
+header > nav {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+main > h1{
+    font-family: idroid;
+    /* background-image: linear-gradient(90deg, lightgreen, white); */
+    /* color: darkgreen; */
+}
+main > h2 {
+    font-family: idroid;
+    background-image: linear-gradient(90deg, lightgreen, white);
+    /* color: darkgreen; */
+}
+main{
+    /* background-color: rgb(132, 225, 173); */
+    background-color:#E9E6C3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+section#principal{
+    background-color: white;
+    width: 70%;
+}
