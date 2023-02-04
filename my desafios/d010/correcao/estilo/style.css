@@ -32,6 +32,7 @@
 }
 
 *{
+    /* O '*' indica que está se inserindo configurações globais */
     margin: 0px;
     padding: 0px;
 }
