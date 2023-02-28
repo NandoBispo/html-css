@@ -7,8 +7,12 @@
     <title>Alinhamento vertical</title>
     <style>
         #container {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
             position: relative;
-            height: 500px;
+            height: 90vh;
+            /* height: 500px; */
             padding: 10px;
             background-color: purple;
         }
@@ -18,10 +22,14 @@
             background-size: 100% 100%;
             position: absolute;
             /* Quando se configura o posicionamento absoluto, há possibilidade de se configurar duas propriedades: left e top */
+
             /* left: 100px;
             top: 200px; */
+
             left: 50%;
             top: 50%;
+            transform: translate(-50%, -50%);
+
             height: 200px;
             width: 400px;
             background-color: yellow;
